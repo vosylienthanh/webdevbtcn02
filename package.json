@@ -1,0 +1,30 @@
+{
+  "name": "1512515",
+  "version": "1.0.0",
+  "description": "btcn02-bootstrap",
+  "main": "js/server.js",
+  "scripts": {
+    "test": "test",
+    "start": "js/servr.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://vosylienthanh@bitbucket.org/vosylienthanh/btcn02-bootstrap.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "bootstrap"
+  ],
+  "author": "vosylienthanh@gmail.com",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/vosylienthanh/btcn02-bootstrap#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "moment": "^2.15.1"
+  },
+  "engines": {
+    "node": "5.7.1"
+  }
+}

@@ -1,0 +1,474 @@
+@font-face 
+{
+    font-family: DesignosaurRegular;
+    src: url('designosaur-regular-webfont.woff'); 
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background: url(../images/bg-body.jpg) repeat;
+    color: #8c8c8c;
+    line-height: 1;
+}
+
+div
+{
+    height: auto;
+}
+
+#wrapper
+{
+    margin: 10px auto;
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    padding: 0px;
+}
+
+div, a, h1, h2, h3, p, strong, ul, li, img
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none !important;
+}
+
+#top 
+{
+    background: #fff;
+    border-bottom: 7px solid #f6f6f6;
+}
+
+#top .frame
+{
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, .button 
+{
+    font-family: "DesignosaurRegular";
+}
+
+#top h1
+{
+    float: left;
+    font-size: 12px;
+    color: #bebebe;
+}
+
+#top h1 a
+{
+    font-size: 16px;
+    color: #bebebe;
+}
+
+#top h1 img 
+{
+    margin: 0 20px 0px 0;
+}
+
+img
+{
+    vertical-align: middle;
+}
+
+#top h3
+{
+    float: right;
+    line-height: 30px;
+    color: #cd2027;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.clear
+{
+    display: block;
+    clear: both;
+}
+
+#middle
+{
+    background: #fcfcfc;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #d1d1d1;
+}
+
+#middle .frame
+{
+    padding: 35px 35px 15px 35px
+}
+
+.col-380
+{
+    width: 380px;
+}
+
+.float-left
+{
+    float: left;
+}
+
+#middle h2
+{
+    font-size: 32px;
+    padding: 10px 0 20px 0;
+    line-height: 40px;
+}
+
+h2, h3
+{
+    color: #3c3c3c;
+}
+
+p
+{
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0 0 20px 0;
+    color: #8c8c8c;
+}
+
+.button
+{
+    display: inline-block;
+    line-height: 39px;
+    font-size: 18px;
+    padding: 0 28px;
+    border: 5px solid #f3f7f8;
+}
+
+.rounded
+{
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    position: relative;
+}
+
+.button.rounded
+{
+    border-radius: 25px !important;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+}
+
+.button:hover 
+{
+    border: 5px solid #5d7fbc;
+}
+
+.button.orange
+{
+    background-image: linear-gradient(to bottom, #ff9800 0%, #ff7b00 51%, #ff5700 100%);
+    color: #ca4500;
+}
+
+.button.gray
+{
+    background-image: linear-gradient(to bottom, #f2f2f2 0%, #e8e8e8 51%, #dcdcdc 100%);
+    color: #838383;
+}
+
+strong
+{
+    font-weight: bold;
+}
+
+.col-460
+{
+    width: 460px;
+}
+
+.float-right
+{
+    float: right;
+}
+
+#slide-wrapper
+{
+    background: url(../images/slide-wrapper-bg.png) no-repeat bottom center;
+    padding: 0 0 40px 0;
+    position: relative;
+}
+
+#slide-wrapper .inner
+{
+    background: #f5f5f5;
+    padding: 5px;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+/* Slideshow container */
+.slide-container
+{
+    position: relative;
+    margin: auto;
+}
+
+/* Hide image */
+.slides.fade img
+{
+    display: block;
+    max-height: 281px
+}
+
+/* Next and previous */
+.prev, .next
+{
+    cursor: pointer;
+    position: absolute; /* always in parent element */
+    top: 50%;
+    width: auto;
+    margin-top: -25px;
+    padding: 3px;
+    color: white;
+    font-weight: bold;
+    transition: 0.6s ease; /* ease accelerated at start and slow down at the end*/
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.carousel-control-prev {
+    left: -37px;
+    margin-top: -8px;
+}
+
+.carousel-control-next {
+    right: -37px;
+    margin-top: -8px;
+}
+  
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover 
+{
+    background-color: rgba(0,0,0,0.8);
+}
+
+#contents-container
+{
+    border-top: 1px solid #e0e0e0;
+}
+
+.frame
+{
+    padding: 35px;
+}
+
+ul
+{
+    list-style: none;
+}
+
+.list-icons li
+{
+    width: 200px;
+    height: 120px;
+    padding: 20px 0 20px 70px;
+    position: relative;
+    float: left;
+    margin: 0 50px 0 0;
+}
+
+.list-icons li img
+{
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+#contents-container h3
+{
+    padding: 0 0 20px 0;
+    font-size: 16px;
+}
+
+.list-icons .remove
+{
+    margin-right: 0px;
+}
+
+.col-500
+{
+    width: 500px;
+}
+
+.col-350
+{
+    width: 350px;
+}
+
+.separator
+{
+    border-top: 1px solid #eeeeee;
+}
+
+.list-arrows
+{
+    margin-top: -10px;
+}
+
+.list-arrows li
+{
+    line-height: 34px;
+    background: url(../images/icons/arrow.png) no-repeat 0 10px;
+    padding: 0 0 0 20px;
+    border-top: 1px solid #f3f3f3;
+}
+
+.list-arrows li.remove
+{
+    border-top: 0px;
+}
+
+.list-arrows li a
+{
+    color: #dd8c5c;
+}
+
+.list-screenshots:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a.col-md-3
+{
+    float: left;
+    background: url(../images/slide-wrapper-bg.png) no-repeat bottom center;
+    padding: 0 10px 20px 0;    
+}
+
+a.col-md-3 img
+{
+    width: 100%;
+    height: 128px;
+    padding: 5px;
+    background: #f5f5f5;
+}
+
+blockquote
+{
+    padding: 5px 0 20px 0;
+    quotes: none;
+}
+
+blockquote p.quote
+{
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+}
+
+blockquote p.author
+{
+    background: url(../images/quote-author.png) no-repeat top left;
+    padding: 10px 0 0 28px;
+    margin: -1px 0 0 15px;
+    position: relative;
+}
+
+.align-center
+{
+    text-align: center;
+}
+
+#bottom
+{
+    background: url(../images/bottom-bg.jpg) repeat;
+    border-top: 1px solid #303030;
+}
+
+#bottom .box.float-left
+{
+    padding: 0 30px 0 0
+}
+
+.col-280
+{
+    width: 280px;
+}
+
+.col-200
+{
+    width: 200px;
+}
+
+.col-140
+{
+    width: 140px;
+}
+
+#bottom .frame h3
+{
+    color: #cecece;
+    font-size: 16px;
+}
+
+#bottom .frame p
+{
+    padding: 20px 0;
+}
+
+#bottom .frame .float-left
+{
+    padding-bottom: 20px;
+}
+
+#footer
+{
+    padding: 0 20px;
+    background: #222;
+}
+
+#footer p
+{
+    line-height: 54px;
+    padding: 0;
+    float: left;
+}
+
+#footer p a
+{
+    color: #dd8c5c;
+}
+
+#footer .socials
+{
+    float: right;
+    line-height: 50px;
+}
+
+#footer .socials li
+{
+    display: inline;
+    padding: 0 0 0 2px;
+}
+
+#footer .socials a
+{
+    opacity: 0.7;
+}
+
+#middle .frame .col-lg-5
+{
+    padding-bottom: 30px;
+}
+
+#contents-container .frame .col-md-7.float-left.remove
+{
+    padding-left: 0px;
+}
+
+#contents-container .frame .col-md-5.float-right.remove
+{
+    padding-right: 0px;
+}
