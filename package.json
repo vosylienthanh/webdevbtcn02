@@ -2,10 +2,10 @@
   "name": "1512515",
   "version": "1.0.0",
   "description": "btcn02-bootstrap",
-  "main": "js/server.js",
+  "main": "server.js",
   "scripts": {
     "test": "test",
-    "start": "js/server.js"
+    "start": "server.js"
   },
   "repository": {
     "type": "git",
